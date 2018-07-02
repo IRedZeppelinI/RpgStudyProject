@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 114188635477075682}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,13 +2497,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
+  m_MovingTurnSpeed: 3600
+  m_StationaryTurnSpeed: 500
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
   m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
+  m_AnimSpeedMultiplier: 1.2
   m_GroundCheckDistance: 0.3
 --- !u!114 &114577289037427994
 MonoBehaviour:
